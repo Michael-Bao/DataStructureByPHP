@@ -1,9 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: 1
+ * User: Michael
  * Date: 2017/10/31
  * Time: 17:37
+ * purpose: 按首字母排序
+ * 方法：给定一个数组，针对整个数组执行匿名函数，获取每个值对应的首字母，根据首字母排序。
+ * 具体操作：将首字母作为值的一个属性，组成新的数组。将新的数组按照首字母排序。
  */
 class Character
 {
@@ -210,3 +213,4 @@ $data = array(
         )
     )
 );
+
