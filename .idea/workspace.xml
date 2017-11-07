@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e097b51-a1ac-4732-a2ad-0bbed05b034d" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arithmetic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelMail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelUpload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preg.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verifyCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelCache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getLastTime.php" afterPath="$PROJECT_DIR$/getLastTime.php" />
     </list>
     <ignored path="mao.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="character.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/character.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="upOrLow.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upOrLow.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,14 +81,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laravelMail.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laravelMail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravelMail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63968074">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="5" selection-start-line="10" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#6#82#0#PHP" expanded="true" />
                 <element signature="e#115#143#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="laravelCache.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravelCache.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5735462">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#82#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +118,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="phpinfo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="arithmetic.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arithmetic.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,16 +136,6 @@
               <folding>
                 <element signature="e#6#82#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phpinfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpinfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,6 +157,7 @@
         <option value="$PROJECT_DIR$/verifyCode.php" />
         <option value="$PROJECT_DIR$/laravelUpload.php" />
         <option value="$PROJECT_DIR$/laravelMail.php" />
+        <option value="$PROJECT_DIR$/laravelCache.php" />
       </list>
     </option>
   </component>
@@ -666,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/character.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -750,11 +738,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravelMail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63968074">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="5" selection-start-line="10" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#6#82#0#PHP" expanded="true" />
             <element signature="e#115#143#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5735462">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
