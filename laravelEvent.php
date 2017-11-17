@@ -20,6 +20,10 @@
  *
  * 代码：
  *   app\Events\WelcomeEmail.php
+ *       public function event() {
+ *           //event(new WelcomeEmail($user));
+ *           Event::fire(new WelcomeEmail($user));
+ *       }
  *   app\Listeners\WelcomeEmailEventListener.php
  *       public fucntion handle(WelcomeEmail $event) {
  *           $user = $event->user;

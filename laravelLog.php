@@ -31,3 +31,10 @@
  *   Log::info('this is a info message');
  *   Log::info('array autochange to json', ['name'=>'mao', 'age'=>18]); //数组会被 json 化之后保存。
  */
+//echo '<pre>';
+var_dump(get_loaded_extensions(false));
+var_dump(extension_loaded('redis'));
+//phpinfo();
+$redis = new Redis();
+$result = $redis->connect('localhost', 6379);
+var_dump($result);
