@@ -34,7 +34,7 @@ class Queue
     private $tail;
 
     //构建一个队列，设置队列长度，队头、队尾的位置，队列容量
-    public function __construct($length = 0)
+    public function __construct(int $length = 0)
     {
         $this->queue = array();
         $this->queueCapacity = $length;
@@ -55,25 +55,32 @@ class Queue
     }
 
     //判断是否为空
-    public function queueEmpty()
+    public function queueEmpty() : bool
     {
-        return $this->queueLen == 0 ? true : false;
+        if (0 == $this->queueLen) {
+            return true;
+        }
+        return false;
+        //return $this->queueLen == 0 ? true : false;
     }
 
     //判断是否已满
-    public function queueFull()
+    public function queueFull() : bool
     {
-        return $this->queueLen == $this->queueCapacity ? true : false;
+        if ($this->queueLen == $this->queueCapacity) {
+            return true;
+        }
+        return false;
     }
 
     //获取长度
-    public function queueLength()
+    public function queueLength() : int
     {
         return $this->queueLen;
     }
 
     //新增元素
-    public function enQueue($element)
+    public function enQueue($element) : bool
     {
         if ($this->queueFull()) { //队列未满才能增
             return false;
@@ -82,10 +89,12 @@ class Queue
         $this->tail++;
         $this->tail %= $this->queueCapacity; //例如容量为 4，上一个数在第 3 的位置，再新增，队尾应指向 0 ，而非指向 4。
         $this->queueLen++;
+
+        return true;
     }
 
     //移除元素
-    public function deQueue()
+    public function deQueue() : string
     {
         if ($this->queueEmpty()) { //队列非空才能减
             return false;
