@@ -83,7 +83,7 @@ Class Stack
     }
 
     //移除栈顶元素，并返回操作结果
-    public function pop() : bool
+    public function checkPop() : bool
     {
         if ($this->stackEmpty()) {
             return false;
@@ -94,7 +94,7 @@ Class Stack
         return false;
     }
     //移除栈顶元素并返回
-    /**public function pop() : string
+    public function pop() : string
     {
         if ($this->stackEmpty()) {
             return false;
@@ -105,7 +105,7 @@ Class Stack
         $this->stack[$this->top] = null; //将栈顶的元素设置为 null
 
         return $res;
-    }*/
+    }
 
     public function stackTraverse(bool $isFromButtom)
     {
