@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e097b51-a1ac-4732-a2ad-0bbed05b034d" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructureLinear.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructureLinkedlist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructureTree.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructureTreeLinked.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mao.iws" />
@@ -26,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="verifyCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verifyCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dataStructureStack.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructureStack.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
+            <state vertical-scroll-proportion="-67.34615">
+              <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
               <folding>
                 <element signature="n#push#0;n#Stack#0;n#!!top" expanded="false" />
               </folding>
@@ -68,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataStructureLinear.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataStructureLinear.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructureLinear.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9725864">
-              <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#6#83#0#PHP" expanded="true" />
                 <element signature="e#1407#1901#0#PHP" expanded="false" />
@@ -84,8 +74,8 @@
       <file leaf-file-name="dataStructureLinkedlist.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructureLinkedlist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.461538">
-              <caret line="176" column="16" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
+            <state vertical-scroll-proportion="44.5">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#6#83#0#PHP" expanded="true" />
                 <element signature="n#Node#0;n#!!top" expanded="false" />
@@ -130,41 +120,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="dataStructureQueue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructureQueue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
-                <marker date="1511771897982" expanded="true" signature="1131:1188" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="1305:1354" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="1393:2222" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="1435:2222" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="1518:1949" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="1577:1935" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="1643:1918" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="1696:1896" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="2040:2222" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="2107:2222" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="2173:2222" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="45518:45578" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="45518:45591" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="45518:45560" placeholder="..." />
-                <marker date="1511771897982" expanded="true" signature="45518:45543" placeholder="..." />
+                <element signature="n#__destruct#0;n#Queue#0;n#!!top" expanded="false" />
+                <element signature="n#clearQueue#0;n#Queue#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataStructureQueue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructureQueue.php">
+      <file leaf-file-name="dataStructureTree.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructureTree.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state vertical-scroll-proportion="11.769231">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <element signature="n#__destruct#0;n#Queue#0;n#!!top" expanded="false" />
-                <element signature="n#clearQueue#0;n#Queue#0;n#!!top" expanded="false" />
+                <element signature="e#6#83#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataStructureTreeLinked.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataStructureTreeLinked.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2243346">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+              <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,6 +189,8 @@
         <option value="$PROJECT_DIR$/stackCaseCheckStatement.php" />
         <option value="$PROJECT_DIR$/dataStructureLinear.php" />
         <option value="$PROJECT_DIR$/dataStructureLinkedlist.php" />
+        <option value="$PROJECT_DIR$/dataStructureTree.php" />
+        <option value="$PROJECT_DIR$/dataStructureTreeLinked.php" />
       </list>
     </option>
   </component>
@@ -213,9 +207,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="9000" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1050" />
+    <option name="x" value="284" />
+    <option name="width" value="1082" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -347,13 +341,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="284" y="0" width="1082" height="738" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2688889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24168298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -385,25 +379,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/character.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upOrLow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getLastTime.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -674,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,23 +661,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511771897982" expanded="true" signature="1131:1188" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="1305:1354" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="1393:2222" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="1435:2222" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="1518:1949" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="1577:1935" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="1643:1918" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="1696:1896" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="2040:2222" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="2107:2222" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="2173:2222" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="45518:45578" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="45518:45591" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="45518:45560" placeholder="..." />
-            <marker date="1511771897982" expanded="true" signature="45518:45543" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,20 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructureStack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-          <folding>
-            <element signature="n#push#0;n#Stack#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructureQueue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="n#__destruct#0;n#Queue#0;n#!!top" expanded="false" />
             <element signature="n#clearQueue#0;n#Queue#0;n#!!top" expanded="false" />
@@ -762,10 +715,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructureStack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-67.34615">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+          <folding>
+            <element signature="n#push#0;n#Stack#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructureLinear.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+            <element signature="e#1407#1901#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructureLinkedlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.461538">
-          <caret line="176" column="16" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
+        <state vertical-scroll-proportion="44.5">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
             <element signature="n#Node#0;n#!!top" expanded="false" />
@@ -789,14 +763,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructureLinear.php">
+    <entry file="file://$PROJECT_DIR$/dataStructureTree.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9725864">
-          <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
+        <state vertical-scroll-proportion="11.769231">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
-            <element signature="e#1407#1901#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructureTreeLinked.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2243346">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
